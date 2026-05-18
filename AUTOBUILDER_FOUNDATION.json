@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "project_folder": "life-finds-a-way",
+  "startup_name": "Life Finds A Way",
+  "aliases": ["LFAW", "Life Finds A Way AI"],
+  "domain": "",
+  "category": "frontier AI, space biology, closed-loop life support, extreme-environment agriculture",
+  "stage": "mvp",
+  "one_line_description": "AI operating system for biological survival systems in space and extreme environments.",
+  "target_users": [
+    "space agencies",
+    "aerospace habitat companies",
+    "controlled-environment agriculture operators",
+    "space biology researchers",
+    "biotech and pharma R&D teams",
+    "defense and remote operations teams",
+    "climate resilience organizations"
+  ],
+  "core_problem": "Food, water, oxygen, waste, medicine, and biological systems are hard to stabilize in space and extreme environments.",
+  "core_solution": "AI simulation and optimization platform for designing closed-loop biological survival systems.",
+  "differentiation": "Combines space agriculture, habitat biology, closed-loop life support, biomanufacturing, and extreme Earth resilience into one AI survival systems platform.",
+  "mvp_scope": {
+    "primary_goal": "Premium website plus visual MVP architecture for a simulation platform.",
+    "included_features": [
+      "homepage",
+      "platform narrative",
+      "MVP demo section",
+      "investor thesis",
+      "brand system",
+      "roadmap",
+      "Autobuilder foundation files"
+    ],
+    "excluded_for_now": [
+      "real auth",
+      "real database",
+      "paid customer portal",
+      "real biological simulation engine",
+      "hardware integrations"
+    ],
+    "future_features": [
+      "interactive habitat simulator",
+      "crop yield optimizer",
+      "closed-loop resource modeler",
+      "mission scenario library",
+      "sensor integrations",
+      "biomanufacturing planner"
+    ]
+  },
+  "website": {
+    "primary_message": "Intelligence for life in impossible environments.",
+    "tone": "premium, scientific, cinematic, investor-grade, frontier-tech",
+    "routes": ["/", "/investors", "/platform", "/demo"],
+    "sections": [
+      "hero",
+      "problem",
+      "solution",
+      "platform pillars",
+      "MVP architecture",
+      "use cases",
+      "investor thesis",
+      "roadmap",
+      "brand manifesto",
+      "CTA"
+    ],
+    "cta": "Explore the platform",
+    "seo_keywords": [
+      "space agriculture",
+      "closed-loop life support",
+      "AI habitat simulation",
+      "extreme environment agriculture",
+      "space biology",
+      "terraforming AI",
+      "microgravity medicine"
+    ]
+  },
+  "product": {
+    "core_flows": [
+      "select environment",
+      "enter resource constraints",
+      "simulate biological system",
+      "review survival metrics",
+      "receive optimization recommendations"
+    ],
+    "demo_flows": [
+      "lunar greenhouse scenario",
+      "Mars transit habitat scenario",
+      "desert resilience farm scenario"
+    ],
+    "data_model_notes": [
+      "future system should model crop, water, oxygen, waste, nutrient, energy, microbial, and medicine production variables"
+    ],
+    "auth_required": false,
+    "database_required": false,
+    "api_required": false
+  },
+  "design_system": {
+    "visual_style": "cinematic dark frontier-tech with biological glow, scientific dashboards, premium space-infrastructure energy",
+    "colors": ["black", "deep navy", "space blue", "bio green", "oxygen cyan", "muted amber"],
+    "typography": "large confident headings, clean technical body copy",
+    "layout_principles": [
+      "large hero",
+      "high contrast",
+      "clean grid sections",
+      "premium cards",
+      "mobile-first responsiveness",
+      "subtle motion"
+    ],
+    "animation_style": "subtle fades, hover glow, soft parallax if simple",
+    "avoid": [
+      "generic SaaS template",
+      "cartoon sci-fi",
+      "crypto visuals",
+      "overdone neon",
+      "fake enterprise clutter"
+    ]
+  },
+  "technical_stack": {
+    "framework": "Next.js",
+    "language": "TypeScript",
+    "styling": "Tailwind CSS",
+    "package_manager": "pnpm",
+    "deployment": "Vercel",
+    "database": "",
+    "auth": "",
+    "apis": []
+  },
+  "do_not": {
+    "delete": [
+      "source code",
+      "brand content",
+      "foundation files",
+      "used assets",
+      "config files"
+    ],
+    "expose_publicly": [
+      "internal Autobuilder details",
+      "private founder data",
+      "fake customer claims"
+    ],
+    "change_without_reason": [
+      "startup positioning",
+      "premium design direction",
+      "pnpm setup",
+      "Vercel readiness"
+    ],
+    "build": [
+      "unneeded auth",
+      "unneeded database",
+      "fake paid dashboard",
+      "bloated backend"
+    ],
+    "drift_toward": [
+      "generic AI SaaS",
+      "space tourism",
+      "crypto",
+      "random farming marketplace",
+      "pure terraforming fantasy"
+    ]
+  },
+  "autobuilder_strategy": {
+    "north_star": "Make Life Finds A Way the clearest and most premium AI survival biology platform for extreme environments.",
+    "quality_bar": "Investor-ready, production-grade, visually premium, build-clean.",
+    "next_priorities": [
+      "add interactive simulation demo",
+      "extend /investors with downloadable deck or PDF export",
+      "add data-driven scenario cards",
+      "add lightweight email waitlist",
+      "improve SEO and social cards"
+    ],
+    "safe_improvement_types": [
+      "copy polish",
+      "visual upgrades",
+      "responsive fixes",
+      "simulation demo UI",
+      "data structure cleanup",
+      "SEO metadata",
+      "performance cleanup"
+    ],
+    "unsafe_improvement_types": [
+      "adding auth without need",
+      "adding database without need",
+      "changing core product identity",
+      "deleting foundation files",
+      "adding heavy dependencies"
+    ],
+    "preferred_task_size": "medium",
+    "build_frequency_guidance": "Run pnpm build after meaningful source changes.",
+    "deployment_guidance": "manual_vercel_only"
+  }
+}

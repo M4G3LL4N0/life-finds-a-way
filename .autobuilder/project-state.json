@@ -1,0 +1,25 @@
+{
+  "project": "life-finds-a-way",
+  "startup_name": "Life Finds A Way",
+  "last_updated": "2026-05-11",
+  "workspace_root": "/Users/joshuadavis/startups/life-finds-a-way",
+  "stack": {
+    "framework": "Next.js 16",
+    "language": "TypeScript",
+    "styling": "Tailwind CSS 4",
+    "package_manager": "pnpm"
+  },
+  "routes_implemented": ["/", "/investors", "/platform", "/demo"],
+  "build": {
+    "status": "passing",
+    "last_command": "pnpm build",
+    "commands": ["pnpm install", "pnpm lint", "pnpm typecheck", "pnpm build"]
+  },
+  "mvp": {
+    "website": "shipped_baseline",
+    "simulation_engine": "not_started",
+    "auth": "not_required",
+    "database": "not_required"
+  },
+  "notes": "MVP demo UI uses static illustrative data only. Foundation JSON is source of truth for product boundaries."
+}

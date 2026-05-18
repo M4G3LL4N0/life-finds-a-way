@@ -1,0 +1,65 @@
+{
+  "generated": "2026-05-10",
+  "tasks": [
+    {
+      "priority": 1,
+      "title": "Run full CI locally",
+      "detail": "pnpm lint && pnpm typecheck && pnpm build after each substantive change."
+    },
+    {
+      "priority": 2,
+      "title": "Add opengraph/twitter image",
+      "detail": "Implement app/opengraph-image or static OG asset; wire metadata images (routes / /investors /platform /demo exist)."
+    },
+    {
+      "priority": 3,
+      "title": "Interactive habitat demo (client)",
+      "detail": "Replace static demo-preview with toggles that recompute mock metrics client-side only."
+    },
+    {
+      "priority": 4,
+      "title": "Waitlist or contact form",
+      "detail": "Lightweight capture (e.g. Formspree, Resend, or Vercel serverless) without Supabase unless needed."
+    },
+    {
+      "priority": 5,
+      "title": "Scenario library JSON",
+      "detail": "Data files for lunar, Mars transit, desert analog; cards on home and /demo."
+    },
+    {
+      "priority": 6,
+      "title": "Mobile nav drawer",
+      "detail": "Header uses lg:flex nav only; add accessible menu for small screens."
+    },
+    {
+      "priority": 7,
+      "title": "/legal pages",
+      "detail": "Privacy + terms placeholders for enterprise conversations."
+    },
+    {
+      "priority": 8,
+      "title": "Performance pass",
+      "detail": "Font subset audit, lazy below-fold sections if bundle grows."
+    },
+    {
+      "priority": 9,
+      "title": "Analytics hook (optional)",
+      "detail": "Privacy-respecting Vercel Analytics or Plausible after domain live."
+    },
+    {
+      "priority": 10,
+      "title": "Content CMS decision",
+      "detail": "If copy churn is high, consider MDX or Contentlayer; keep lean until needed."
+    },
+    {
+      "priority": 11,
+      "title": "E2E smoke test",
+      "detail": "Playwright optional: home + three routes return 200."
+    },
+    {
+      "priority": 12,
+      "title": "Domain and metadata",
+      "detail": "Set NEXT_PUBLIC_SITE_URL in Vercel; update AUTOBUILDER_FOUNDATION domain field."
+    }
+  ]
+}
